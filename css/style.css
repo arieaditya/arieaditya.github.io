@@ -1,0 +1,171 @@
+html {
+	position: relative;
+}
+
+body {
+	margin-bottom: 50px;
+}
+
+.nav img {
+	width: 110px;
+	height: 20px;
+}
+
+.jumbotron img {
+	margin-top: 70px;
+	width: 200px;
+	border: 5px solid #a4a7a8;
+}
+
+.jumbotron h1 {
+	font-family: 'Patua One', cursive;
+}
+
+.about h2 {
+	font-family: 'Patua One', cursive;
+}
+
+.about h2{
+	margin-top: 20px;
+}
+
+
+.about hr {
+	width: 250px;
+	border-top: 2px solid #a4a7a8;
+}
+
+.about p {
+	font-family: 'Caveat', cursive;
+	font-size: 16pt;
+	padding-right: 25px;
+	padding-left: 20px;
+	text-align: justify;
+}
+
+.wid hr {
+	width: 250px;
+	border-top: 2px solid #a4a7a8;
+}
+
+.wid h2 {
+	font-family: 'Patua One', cursive;
+	margin-top: 20px;
+}
+
+.portofolio hr {
+	width: 250px;
+	border-top: 2px solid #a4a7a8;
+}
+
+.portofolio h2 {
+	font-family: 'Patua One', cursive;
+	line-height: 1.0;
+	margin-top: 20px;
+}
+
+.portofolio {
+	background-color: #e9ecef;
+}
+
+.contact h2 {
+	font-family: 'Patua One', cursive;
+	line-height: 1.0;
+	margin-top: 20px;
+}
+
+.contact hr {
+	width: 250px;
+	border-top: 2px solid #a4a7a8;
+}
+
+.contact {
+	min-height: 800px;
+} 
+
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 100px;
+	background-color: #333;
+}
+
+footer p {
+	font-family: 'Patua One', cursive;
+	color: #aaa;
+	font-size: 1em;
+	align-items: center;
+	text-align: center;
+	margin-top: 30px; 
+}
+
+footer p i {
+	color: salmon;
+}
+
+section {
+	min-height: 600px;
+}
+
+.material-icons.md-18 { 
+	font-size: 18px; 
+}
+
+.navbar-nav .nav-link {
+  padding-right: 0;
+  padding-left: 20px;
+}
+
+/*For Mobile Phones*/
+
+@media (max-width: 768px) {
+
+	.navbar-expand-lg>.container, .navbar-expand-lg>.container-fluid {
+    padding-right: 20px;
+    padding-left: 0;
+	}
+
+	.wid {
+		min-height: 300px;
+		margin-top: 30px;
+	}
+
+	.carousel-caption h3 {
+		font-size: 14pt;
+		position: relative;
+	}
+	
+	.carousel-caption p {
+		position: relative;
+		font-size: 10pt;
+	}
+}
+
+/*For Desktop*/
+
+@media (min-width: 769px) {
+
+	.wid {
+		min-height: 500px;
+		margin-top: 30px;
+		padding-bottom: 30px;
+	}
+	
+	.carousel-caption h3 {
+		font-size: 30pt;
+		font-family: 'Oswald', sans-serif;
+		position: relative;
+	}
+	
+	.carousel-caption p {
+		position: relative;
+		font-size: 14pt;
+	}
+
+	.portofolio {
+		padding-bottom: 20px;
+		min-height: 600px;
+	}
+	
+}
